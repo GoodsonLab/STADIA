@@ -15,7 +15,7 @@ A compressed ZIP file containing all of the content in this repository will be d
 * Option 2: Clone the repository
 Copy the repository URL and clone the repository on your local machine using the following terminal command line prompt:
 
-`git clone https://github.com/GoodsonLab/STADIA.git`
+	--- 	--- `git clone https://github.com/GoodsonLab/STADIA.git`
 
 
 ### Read the Tutorials
