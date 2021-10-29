@@ -24,6 +24,12 @@ There are two tutorial files:
 
 
 ### Test STADIA with Example Data
-You can test your version of STADIA by running it with the example length history data file provided, `length_13PF_10uM_MeanPF_3hr.txt`. The default parameters should produce results and output files qualitatively similar to the examples demonstrated in the in the tutorial. Note that a smaller file corresponding to 3 hours of simulated data of the mean protofilament length is provided here, which may differ to the exact results when using the 10 hours of simulated data with the maximum protofilament length discussed in the corresponding publications. However, the 3 hour data should still be ample to test the STADIA code, and to showcase similar results associated with identifying stutter phase segments.
+You can test your version of STADIA by running it with the example length history data file provided inside the ZIP file along with the STADIA code. This example data files is named `length_13PF_10uM_MeanPF_3hr.txt`, which represents a detailed 13 protofilament MT behavior simulated over a 3 hour duration, and where MT length is measured by taking the mean protofilament length. Note that this data set differs from the 10 hour simulated data using the maximum protofilament length used in corresponding publications, which may generate output different that the reported results. However, the 3 hour data should still be ample enough to test the STADIA code, and to demonstrate similar results associated with identifying stutter phase segments.
 
+To test STADIA with this example data, simply run the `Input_and_Run.m` file with the default parameters already provided. All required files should be where they need to be after downloading and un-compressing the ZIP file for the STADIA code.
+
+### Contact Us
+With questions, suggestions, or comments, please contact us via email:
+* Shant Mahserejian - shant.mahserejian@pnnl.gov
+* Holly Goodson - hgoodson@nd.edu
 
